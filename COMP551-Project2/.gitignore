@@ -1,0 +1,5 @@
+.idea/
+.ipynb_checkpoints/
+2_LSTM_250.h5
+2_LSTM_250_weights.h5
+__pycache__/

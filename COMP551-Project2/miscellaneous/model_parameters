@@ -1,0 +1,46 @@
+SVC:
+{
+    'clf__C': (0.25, 0.5, 0.75, 1.0),
+    'clf__kernel': ('rbf', 'sigmoid', 'linear', 'poly')
+    'clf__alpha': (0.00001, 0.000001),
+    'clf__penalty': ('l2', 'elasticnet'),
+    'clf__max_iter': (10, 50, 80),  
+    'clf__class_weight': (???)
+}
+
+MultinomialNB: 
+{
+    'clf__alpha': (0.25, 0.5, 0.75),
+    'clf__fit_prior': (True, False),  
+}
+
+Logistic Regression:
+{
+    'clf__penalty': ('l1' , 'l2', 'elasticnet', 'none'),
+    'clf__C': (0.001,0.01,0.1, 1.0,10,100),  
+    'clf__max_iter':
+    'clf__solver':
+    'clf__intercept_scaling':
+    'clf__class_weight':
+    'clf__multi_class': ('ovr', 'multinomial', 'auto'),
+    'clf__l1_ratio': (None, 0.25,0.5,0.75)
+}
+Decision Tree:
+{
+
+}
+
+Linear SVC:
+{
+
+}
+
+Random Forest Classifier:
+{
+    
+}
+
+XGBoost:
+{
+
+}
